@@ -69,7 +69,14 @@ h1 {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	border-radius: 7px
+	border-radius: 7px;
+}
+
+/* for putting button and content side-by-side */
+.container {
+	width: 100%;
+	height: 100%;
+	margin: auto;
 }
 
 /* to push page content to the right */
@@ -80,18 +87,52 @@ h1 {
 	padding: 0px 20px 20px 30px;
 }
 
-/* for putting button and content side-by-side */
-.container {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
 /* column for button */
 #menuCol {
 	float: left;
 	width = 100px;
 	height = 100%;
+}
+
+/* container for 3 columns */
+.container3 {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+}
+
+/* column 1 of 3 */
+.col1_3 {
+	float: left;
+	height = 100%;
+}
+
+/* column 2 of 3 */
+.col2_3 {
+	float: left;
+	margin-left: 200px;
+	height = 100%;
+}
+
+/* column 3 of 3 */
+.col3_3 {
+	float: left;
+	margin-left: 200px;
+	height = 100%;
+}
+
+.colorButton {
+	background-color: #000000;
+	border: none;
+	color: white;	/* text color */
+	padding: 15px 32px;	/* top/bottom left/right */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 7px;
 }
 
 /* for smaller screens, adjust sidenav properties */
