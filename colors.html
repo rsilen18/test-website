@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colors</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script async src="./javascript/index.js"></script>
+  </head>
+  <body>
+
+    <!--Side navigation bar -->
+    <div id="sideNav" class="sidenav">
+    	<a class="closebtn" onclick="closeNav()">&times;</a>
+        <a href=index.html>Home</a>
+        <a href=colors.html>Colors</a>
+    	<a href="#">About</a>
+    	<a href="#">Services</a>
+    </div>
+
+    <section class="container">
+    	<div id="menuCol">
+    		<!-- to open sidebar -->
+    		<span onclick="openNav()">
+    			<a href="#" class="rbutton">Menu</a>
+    		</span>
+    	</div>
+	
+	    <div id="main">
+	   		<h1>Colors</h1>
+	    	<section class = "container">
+                <div class = "col1_3">
+                    <span onclick = "updateColor('red','#ff0000')">
+                        <a href="#" id = "red" class="colorButton">red</a>
+                    </span>
+                </div>
+                <div class = "col2_3">
+                    <span onclick = "updateColor('green','#00ff00')">
+                        <a href="#" id = "green" class="colorButton">green</a>
+                    </span>
+                </div>
+                <div class = "col3_3">
+                    <span onclick = "updateColor('blue','#0000ff')">
+                        <a href="#" id = "blue" class="colorButton">blue</a>
+                    </span>
+                </div>
+            </section>
+    	</div>
+    </section>
+  </body>
+</html>
